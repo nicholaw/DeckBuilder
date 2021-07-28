@@ -1,0 +1,31 @@
+<? xml version = 1.0 ?>
+<class>
+	<victory_card>
+		<id>10</id>
+		<name>Estate</name>
+		<cost>2</cost>
+		<vp>1</vp>
+		<tag>Victory</tag>
+	</victory_card>
+	<victory_card>
+		<id>11</id>
+		<name>Duchy</name>
+		<cost>5</cost>
+		<vp>3</vp>
+		<tag>Victory</tag>
+	</victory_card>
+	<victory_card>
+		<id>12</id>
+		<name>Province</name>
+		<cost>8</cost>
+		<vp>6</vp>
+		<tag>Victory</tag>
+	</victory_card>
+	<victory_card>
+		<id>13</id>
+		<name>Curse</name>
+		<value>-1</value>
+		<cost>0</cost>
+		<tag>Curse</tag>
+	</victory_card>
+</class>
