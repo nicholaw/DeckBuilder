@@ -1,0 +1,24 @@
+<? xml version = 1.0 ?>
+<class>
+	<treasure_card>
+		<id>0</id>
+		<name>Copper</name>
+		<value>1</value>
+		<cost>0</cost>
+		<tag>Treasure</tag>
+	</treasure_card>
+	<treasure_card>
+		<id>1</id>
+		<name>Silver</name>
+		<value>2</value>
+		<cost>3</cost>
+		<tag>Treasure</tag>
+	</treasure_card>
+	<treasure_card>
+		<id>2</id>
+		<name>Gold</name>
+		<value>3</value>
+		<cost>6</cost>
+		<tag>Treasure</tag>
+	</treasure_card>
+</class>

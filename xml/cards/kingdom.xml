@@ -1,0 +1,169 @@
+<? xml version = 1.0 ?>
+<class>
+	<kingdom_card>
+		<id>101</id>
+		<name>Artisan</name>
+		<cost>6</cost>
+		<tag>Action</tag>
+		<text>
+			Gain a card to your hand costing up to 5t.
+			
+			Put a card from your hand onto your deck.
+		</text>
+		<buff />
+	</kingdom_card>
+	<kingdom_card>
+		<id>102</id>
+		<name>Bandit</name>
+		<cost>5</cost>
+		<tag>Action-Attack</tag>
+		<text>
+			Gain a Gold. Each other player reveals the top 2 cards of their deck, 
+			trashes a revealed Treasure other than Copper, and discards the rest.
+		</text>
+		<buff />
+	</kingdom_card>
+	<kingdom_card>
+		<id>103</id>
+		<name>Bureaucrat</name>
+		<cost>4</cost>
+		<tag>Action-Attack</tag>
+		<text>
+			Gain a Silver onto you deck. Each other player reveals a Victory card from their 
+			hand and puts it onto their deck (or reveals a hand with no Victory cards).
+		</text>
+		<buff />
+	</kingdom_card>
+	<kingdom_card>
+		<id>104</id>
+		<name>Cellar</name>
+		<cost>2</cost>
+		<tag>Action</tag>
+		<text>
+			Discard any number of cards, then draw that many.
+		</text>
+		<buff>
+			<actions>1</actions>
+			<cards />
+			<buys />
+			<treasure />
+		</buff>
+	</kingdom_card>
+	<kingdom_card>
+		<id>105</id>
+		<name>Chapel</name>
+		<cost>2</cost>
+		<tag>Action</tag>
+		<text>
+			Trash up to 4 cards from your hand.
+		</text>
+		<buff />
+	</kingdom_card>
+	<kingdom_card>
+		<id>106</id>
+		<name>Council Room</name>
+		<cost>5</cost>
+		<tag>Action</tag>
+		<text>
+			Each other player draws a card.
+		</text>
+		<buff>
+			<actions />
+			<cards>4</cards>
+			<buys>1</buys
+			<treasure />
+		</buff>
+	</kingdom_card>
+	<kingdom_card>
+		<id>107</id>
+		<name>Festival</name>
+		<cost>5</cost>
+		<tag>Action</tag>
+		<text />
+		<buff>
+			<actions>2</actions>
+			<cards />
+			<buys>1</buys>
+			<treasure>2</treasure>
+		</buff>
+	</kingdom_card>
+	<kingdom_card>
+		<id>108</id>
+		<name>Gardens</name>
+		<cost>4</cost>
+		<tag>Victory</tag>
+		<text>
+			Worth 1 VP per 10 cards you have (round down).
+		</text>
+		<buff />
+	</kingdom_card>
+	<kingdom_card>
+		<id>109</id>
+		<name>Harbinger</name>
+		<cost>3</cost>
+		<tag>Action</tag>
+		<text>
+			Look through your discard pile. You may put a card from it 
+			onto your deck.
+		</text>
+		<buff>
+			<actions>1</actions>
+			<cards>1</cards>
+			<buys />
+			<treasure />
+		</buff>
+	</kingdom_card>
+	<kingdom_card>
+		<id>110</id>
+		<name>Laboratory</name>
+		<cost>5</cost>
+		<tag>Action</tag>
+		<text />
+		<buff>
+			<actions>1</actions>
+			<cards>2</cards>
+			<buys />
+			<treasure />
+		</buff>
+	</kingdom_card>
+	<kingdom_card>
+		<id>111</id>
+		<name>Library</name>
+		<cost>5</cost>
+		<tag>Action</tag>
+		<text>
+			Draw until you have 7 cards in hand, skipping any Action 
+			cards you choose to; set those aside, discarding them 
+			afterwards.
+		</text>
+		<buff />
+	</kingdom_card>
+	<kingdom_card>
+		<id>112</id>
+		<name>Market</name>
+		<cost>5</cost>
+		<tag>Action</tag>
+		<text />
+		<buff>
+			<actions>1</actions>
+			<cards>1</cards>
+			<buys>1</buys>
+			<treasure>1</treasure>
+		</buff>
+	</kingdom_card>
+	<kingdom_card>
+		<id>113</id>
+		<name>Merchant</name>
+		<cost>3</cost>
+		<tag>Action</tag>
+		<text>
+			The first time you play a Silver this turn, +1t.
+		</text>
+		<buff>
+			<actions>1</actions>
+			<cards>1</cards>
+			<buys />
+			<treasure />
+		</buff>
+	</kingdom_card>
+</class>
